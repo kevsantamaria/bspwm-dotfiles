@@ -7,7 +7,7 @@ Custom theme based on [ghoztk’s bspwm dotfiles](https://github.com/gh0stzk/dot
 
 ## Contents
 - bspwm configuration
-- Custom polybar
+- Zsh config (with oh-my-zsh and starship)
 - Scripts and small adjustments
 
 ## Required packages
