@@ -1,0 +1,99 @@
+add_newline = false
+
+palette = "dracula"
+
+[palettes.dracula]
+background = "#282a36"
+current_line = "#44475a"
+foreground = "#f8f8f2"
+comment = "#6272a4"
+cyan = "#8be9fd"
+green = "#50fa7b"
+orange = "#ffb86c"
+pink = "#ff79c6"
+purple = "#bd93f9"
+red = "#ff5555"
+yellow = "#f1fa8c"
+white = "#d5d5d5"
+
+format = "$username$hostname$directory$git_branch$git_status$nodejs$python$rust$golang$cmd_duration$fill$time\n$character"
+
+[directory.substitutions]
+"Descargas" = " "
+"Documentos" = "󰈙 "
+"Escritorio" = "󰟀 "
+"Imágenes" = " "
+"Música" = " "
+"Público" = " "
+"Vídeos" = " "
+
+[character]
+success_symbol = "[ ](bold green) "
+error_symbol = "[ ](bold red) "
+vicmd_symbol = "[](bold purple) "
+
+[username]
+show_always = true
+style_user = "bold pink"
+format = "[$user]($style)"
+
+[hostname]
+ssh_only = false
+style = "bold purple"
+format = "@[$hostname]($style) "
+
+[container]
+symbol = ' '
+style = 'bold red dimmed'
+format = '[$symbol \[$name\] ]($style)'
+
+[os]
+disabled = false
+style = "bold white"
+
+[os.symbols]
+Ubuntu = " "
+Debian = "󰣚 "
+Fedora = " "
+Pop = " "
+Kali = " "
+CachyOS = " 󰌽 "
+
+#[custom.saludo]
+#command = "echo Hi, $USER"
+#when = "init"
+#style = "bold green"
+#format = " [$output]($style) "
+
+
+[directory]
+style = "bold cyan"
+
+[git_branch]
+symbol = " "
+style = "bold orange"
+
+[git_status]
+style = "yellow"
+
+[nodejs]
+symbol = " "
+style = "green"
+
+[python]
+symbol = ""
+style = "yellow"
+
+[bun]
+symbol = " "
+style = "yellow" 
+
+[golang]
+symbol = " "
+style = "cyan"
+
+[time]
+disabled = false
+time_format = "%H:%M"
+style = "cyan"
+format = "[$time]($style)"
