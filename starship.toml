@@ -26,6 +26,7 @@ format = "$username$hostname$directory$git_branch$git_status$nodejs$python$rust$
 "Música" = " "
 "Público" = " "
 "Vídeos" = " "
+"github" = " "
 
 [character]
 success_symbol = "[ ](bold green) "
